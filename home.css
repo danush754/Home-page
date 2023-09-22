@@ -1,0 +1,65 @@
+body{
+    background-color: #faf1f1;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fuggles', cursive;
+    font-family: 'League Spartan', sans-serif;
+    
+}
+
+.header{
+    background-color: rgb(171, 217, 224);
+}
+
+.headerone{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.logo img{
+    width: 120px;
+    border-radius: 2cm;
+    box-shadow: -5px 8px 7px rgb(11, 42, 63);
+}
+
+.headerlinks ul{
+    display: flex;
+    align-items: center;
+}
+
+.headerlinks li{
+    list-style: none;
+    color: #072D44;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif; ;
+    
+}
+
+.headerlinks ul #shoppingbag{
+    width: 40px;
+}
+
+.headertwo{
+    display: flex;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.headertwo .leftcontent h2{
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: 'Fuggles', cursive;
+    padding: 0;
+}
+
+.headertwo .leftcontent p{
+    margin-top: none;
+    font-size: 22px;
+    font-family: 'League Spartan', Times, serif;
+}
