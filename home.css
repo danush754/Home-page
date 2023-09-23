@@ -1,5 +1,5 @@
 body{
-    background-color: #faf1f1;
+    background-color: #c8d2d6;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -81,6 +81,17 @@ body{
     margin-right: 25px;
     border-radius: 0.2cm;
 }
+.heading{
+    margin: 0;
+    background-color: #c8d2d6;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-weight: 300;
+    color: rgb(26, 42, 48);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
 
 .products{
     display: flex;
@@ -104,5 +115,76 @@ body{
 .items p{
     font-family: 'Fuggles',sans-serif;
     font-weight: 800;
+    font-size: 33px;
+    text-decoration: underline solid rgba(8, 32, 43, 0.349) 2px;
+}
+
+.quotes{
+    margin:none;
+    background-color: #a2b0b6;
+    padding: 20px;
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+
+.quote{
+    text-align: left;
+    font-size: 33px;
+    font-weight: 600;
+    margin: 15px;
+    font-family: 'Quick sand',sans-serif ;
+}
+
+.aurthor{
+    font-size: 33px;
+    font-weight: 600;
+    font-family: 'Fuggles',sans-serif;
+    padding-top: 20px;
+}
+
+.productSignup{
+    display: flex;
+    width: 550px;
+    background-color: rgb(5, 23, 31);
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+    border-radius: 0.3cm;
+    justify-content: center;
+}
+
+.signuppara{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.signupbutton button{
+    width: 80px ;
+    padding: 8px;
+    border-radius: 0.2cm;
+    font-weight: 500;
+}
+
+.footer{
+    background-color: #848f94;
+    text-align: center;
+    padding: 8px;
+}
+
+.footer p{
+    margin-top: 10px;
     font-size: 25px;
+}
+
+.footer .img{
+    display: flex;
+    margin-top:none;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+} 
+
+.img img{
+    width: 15px;
 }
